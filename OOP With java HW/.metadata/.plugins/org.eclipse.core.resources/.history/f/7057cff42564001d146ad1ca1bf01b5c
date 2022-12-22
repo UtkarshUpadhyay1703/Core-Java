@@ -1,0 +1,11 @@
+package generics;
+
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Generics {
+	public static void Display(Collection<?> collections) {
+		Iterator<?> itr= collections.iterator();
+		
+	}
+}

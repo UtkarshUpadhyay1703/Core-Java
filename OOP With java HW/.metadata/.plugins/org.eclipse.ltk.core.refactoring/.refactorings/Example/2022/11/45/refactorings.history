@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;EvenPrinterTask.java&apos; to &apos;runnable_tasks.EvenPrinterTask.java&apos;&#x0D;&#x0A;- Original project: &apos;Example&apos;&#x0D;&#x0A;- Destination element: &apos;runnable_tasks.EvenPrinterTask.java&apos;&#x0D;&#x0A;- Original element: &apos;runnable_tasks.EvenPrinterTask.java&apos;" description="Copy compilation unit" destination="/src&lt;runnable_tasks{EvenPrinterTask.java" element1="/src&lt;runnable_tasks{EvenPrinterTask.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667559660929" units="1" version="1.0"/>
+</session>
