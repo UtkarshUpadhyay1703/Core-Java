@@ -1,0 +1,38 @@
+package examples;
+
+import java.util.Stack;
+
+public class ParanthesisCheck {
+	public static boolean isOpening(char c) {
+		return c == '(' || c == '{' || c == '[';
+	}
+
+	public static boolean isMaching(char a, char b) {
+		return (a == '(' && b == ')') || (a == '{' && b == '}') || (a == '[' && b == ']');
+	}
+
+	static boolean ispar(String x) {
+		Stack<Character> stack = new Stack<>();
+		for (int i = 0; i < x.length(); i++) {
+			char ch = x.charAt(i);
+			if (isOpening(ch)) {
+				stack.push(ch);
+			} else {
+				if (stack.isEmpty()) {
+					return false;
+				} else if (!isMaching(stack.peek(), ch)) {
+					return false;
+				} else {
+					stack.pop();
+				}
+			}
+		}
+		return stack.isEmpty();
+	}
+
+	public static void main(String[] args) {
+		System.out.println(ParanthesisCheck.ispar("()}"));
+
+	}
+
+}

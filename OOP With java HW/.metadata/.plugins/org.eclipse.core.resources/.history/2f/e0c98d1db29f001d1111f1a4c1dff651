@@ -1,0 +1,14 @@
+package examples;
+
+public class Testing {
+	private int id=10;
+	public String display() {
+		return "Main Testing";
+	}
+	class 
+
+	public static void main(String[] args) {
+		Double d1=1234;
+	}
+
+}

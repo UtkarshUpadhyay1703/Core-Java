@@ -1,0 +1,9 @@
+package examples;
+
+public class Testing {
+
+	public static void main(String[] args) {
+		Double d1=1234;
+	}
+
+}

@@ -1,0 +1,43 @@
+package examples;
+
+public class PrRp {
+    static long solve(int X,int Y, String S)
+	{    
+	    // code here
+	    int x=0,y=0;
+	    long sum=0;
+	    while(S.contains("pr") || S.contains("rp")){
+	    	if(S.indexOf("pr")!=-1 && S.indexOf("rp")!=-1) {
+	    	if(S.indexOf("pr")<S.indexOf("rp")) {
+	    		S=S.replaceFirst("pr","");
+	    		System.out.println("pr = "+S);
+	    		System.out.println(S.indexOf("rp"));
+		        x++;
+	    	}else {
+	    		S=S.replaceFirst("rp","");
+	    		System.out.println("rp = "+S);
+
+	    		y++;
+	    	}
+	    	}else {
+	    	if(S.indexOf("pr")==-1){
+		        S=S.replaceFirst("rp","");
+		        y++;
+		    }
+	    	else{
+	        S=S.replaceFirst("pr","");
+	        x++;
+	    }
+	    	}
+	    	}
+	    sum=Long.valueOf(x*X+y*Y);
+	    return sum;
+        
+	}
+	public static void main(String[] args) {
+//		System.out.println(PrRp.solve(5, 4, "abppprrr"));
+		System.out.println(PrRp.solve(10, 20, "lrrfrrprgprpppppmurr"));
+
+	}
+
+}

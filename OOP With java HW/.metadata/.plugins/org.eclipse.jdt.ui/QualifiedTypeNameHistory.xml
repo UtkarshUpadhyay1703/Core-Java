@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="utils.Utils"/>
-    <fullyQualifiedTypeName name="exceptionHendling.ExceptionHandler"/>
-    <fullyQualifiedTypeName name="com.app.Vehicle"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="example.Animal"/>
-    <fullyQualifiedTypeName name="com.util.Util"/>
-    <fullyQualifiedTypeName name="com.validate.Validate"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.parser.DocumentParser"/>
     <fullyQualifiedTypeName name="fruits.Fruit"/>
     <fullyQualifiedTypeName name="fruits.Mango"/>
@@ -27,14 +20,12 @@
     <fullyQualifiedTypeName name="custom.ExceptionHandler"/>
     <fullyQualifiedTypeName name="java.io.ObjectInputFilter.Status"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="reader.Reader"/>
     <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="validation.HashValidation"/>
     <fullyQualifiedTypeName name="com.app.banking.BankAccount"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
@@ -58,6 +49,15 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="com.cdac.geometry.Point2D"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.invoke.StringConcatException"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="examples.Derived"/>
+    <fullyQualifiedTypeName name="examples.Example1"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="examples.RecursivelyRemoveAdjacentDuplicates"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="examples.ParanthesisCheck"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="examples.HashMapUsage"/>
 </qualifiedTypeNameHistroy>

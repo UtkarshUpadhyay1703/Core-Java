@@ -1,0 +1,33 @@
+package examples;
+
+import java.util.HashMap;
+
+public class HashMapUsage {
+
+	public int firstElementKTime(int[] a, int n, int k) {
+		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>(n);
+		int i = 0;
+		while (i < n) {
+			if (hm.get(a[i]) == null) {
+				hm.put(a[i], 1);
+			} else {
+				hm.put(a[i], hm.get(a[i]) + 1);
+				if (hm.get(a[i]) >= k) {
+					return a[i];
+				}
+			}
+			i++;
+		}
+		return -1;
+
+	}
+
+	public static void main(String[] args) {
+		HashMapUsage ho = new HashMapUsage();
+		int N = 7, K = 2;
+		int[] A = { 1, 7, 4, 3, 4, 8, 7 };
+		System.out.println(ho.firstElementKTime(A, N, K));
+
+	}
+
+}

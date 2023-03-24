@@ -1,0 +1,30 @@
+package examples;
+
+import java.util.ArrayList;
+
+public class Testing {
+	private int id=10;
+	public String display() {
+		return "Main Testing";
+	}
+	static class InnerTesting{
+		public String display1() {
+			return "Inner Testing";
+		}
+	}
+
+	public static void main(String[] args) {
+//		Testing t1=new Testing();
+//		Testing.InnerTesting t1= new InnerTesting();
+//		System.out.println(t1.display1());
+		
+		
+//		ArrayList<Integer> list=new ArrayList<Integer>();
+//		System.out.println(list.get(0));
+		
+		
+		Integer i=new Integer(20); // javac
+		System.out.println(i);
+	}
+
+}

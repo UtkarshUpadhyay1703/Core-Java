@@ -16,7 +16,7 @@ public class Tester {
 		t2.start();
 		t3.start();
 		t4.start();//1 (main) + 4 child thrds  : RUNNABLE
-		t1.start();
+		//t1.start();
 		for (int i = 0; i < 10; i++) {
 			System.out.println(Thread.currentThread().getName() + " exec # " + i);
 			Thread.sleep(500);
